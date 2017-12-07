@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "749724137055",
+    "firebase_url": "https://antibioticbymewnew.firebaseio.com",
+    "project_id": "antibioticbymewnew",
+    "storage_bucket": "antibioticbymewnew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749724137055:android:d95f938cb16d1a38",
+        "android_client_info": {
+          "package_name": "com.example.antibioticbymewnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749724137055-a41rmde10lfje187hnls3g69s8m4jh6r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.antibioticbymewnew",
+            "certificate_hash": "9697bd6232fcabdbee4b7c88855c9eb8e0f4dd9d"
+          }
+        },
+        {
+          "client_id": "749724137055-jchsq8dj53prirs2enljfghuls39j7gl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcqycyUFvIJDdc0Rr-JZhH1ts2OYbboW0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749724137055-jchsq8dj53prirs2enljfghuls39j7gl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

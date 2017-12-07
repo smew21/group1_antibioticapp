@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Provider_Patient.HomePatientActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_home_provider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#406e8f"
+            android:minHeight="?attr/actionBarSize"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <TextView
+                android:id="@+id/tv_toolbar_home_provider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="สำหรับบุคลากรทางการแพทย์"
+                android:fontFamily="@font/thsarabunnew"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="@drawable/myroundlinearlayout_provider"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="สำหรับผู้มีอาการอย่างใดอย่างหนึ่งต่อไปนี้"
+                android:fontFamily="@font/thsarabunnew"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="28sp" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:padding="2dp"
+                android:text="- เจ็บคอ"
+                android:textStyle="bold"
+                android:fontFamily="@font/thsarabunnew"
+                android:textSize="24sp" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:padding="2dp"
+                android:text="- ไอ"
+                android:textStyle="bold"
+                android:fontFamily="@font/thsarabunnew"
+                android:textSize="24sp" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:padding="2dp"
+                android:text="- มีน้ำมูก"
+                android:fontFamily="@font/thsarabunnew"
+                android:textStyle="bold"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn_gotoQ_provider"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/home_mybutton"
+                android:padding="8dp"
+                android:text="เริ่มทำแบบสอบถาม"
+                android:fontFamily="@font/thsarabunnew"
+                android:textSize="22sp"/>
+
+            <Button
+                android:id="@+id/btn_gotoHis_pro"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/home_mybutton"
+                android:padding="8dp"
+                android:text="ประวัติ"
+                android:fontFamily="@font/thsarabunnew"
+                android:textSize="22sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

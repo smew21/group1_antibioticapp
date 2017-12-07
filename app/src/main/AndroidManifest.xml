@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.antibioticbymewnew">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_antibiotic"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Regis_Login.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Regis_Login.RegisterActivity" />
+        <activity android:name=".Question.QuestionActivity" />
+        <activity android:name=".Provider_Patient.ProfilePatientActivity" />
+        <activity android:name=".Conclude.ConcludeActivity" />
+        <activity android:name=".Provider_Patient.HomeProviderActivity" />
+        <activity android:name=".Provider_Patient.HomePatientActivity" />
+        <activity android:name=".Detail.DetailActivity" />
+        <activity android:name=".History.DetailHistoryActivity"></activity>
+        <activity android:name=".History.HistoryActivity"/>
+    </application>
+
+</manifest>
